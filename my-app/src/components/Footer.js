@@ -1,11 +1,11 @@
 import React from "react";
-
+import Bulma from "bulma";
 
 const Footer = () => {
 
 return (
   <footer className="footer">
-    <div className="section-heading">
+    <div className="section-heading has-text-centered">
       <p>
         <strong>Bulma Personal Template</strong> by{" "}
         <a href="https://mubaidr.js.org">Muhammad Ubaid Raza</a>. The source
@@ -19,3 +19,5 @@ return (
 
 
 }
+
+export default Footer;

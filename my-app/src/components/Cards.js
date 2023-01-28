@@ -1,13 +1,15 @@
 import React from "react";
 
+
 const Cards = () => {
   return (
     <section className="section" id="portfolio">
       <div className="container">
-        <div className="section-heading">
+        <div className="section-heading has-text-centered">
           <h3 className="title is-2">Portfolio</h3>
           <h4 className="subtitle is-5">My latest works</h4>
         </div>
+        <br />
 
         <div className="container portfolio-container">
           <div className="columns">
@@ -41,6 +43,142 @@ const Cards = () => {
                   </a>
                   <a
                     href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/admin.html"
+                    className="card-footer-item"
+                  >
+                    Source Code
+                  </a>
+                </footer>
+              </div>
+
+              <div className="card">
+                <header className="card-header">
+                  <p className="card-header-title">
+                    <span>Cards</span>
+                    <span className="is-pulled-right">
+                      <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
+                        <span className="tag is-default">v0.7.2</span>
+                      </a>
+                      <span className="tag is-default">Desktop</span>
+                      <span className="tag is-default">?</span>
+                    </span>
+                  </p>
+                </header>
+                <div className="card-content">
+                  <figure className="image">
+                    <img
+                      src="../images/cards.png"
+                      alt="Cards template screenshot"
+                    />
+                  </figure>
+                </div>
+                <footer className="card-footer">
+                  <a href="templates/cards.html" className="card-footer-item">
+                    Preview
+                  </a>
+                  <a
+                    href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/cards.html"
+                    className="card-footer-item"
+                  >
+                    Source Code
+                  </a>
+                </footer>
+              </div>
+
+              <div className="card">
+                <header className="card-header">
+                  <p className="card-header-title">
+                    <span>Cards</span>
+                    <span className="is-pulled-right">
+                      <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
+                        <span className="tag is-default">v0.7.2</span>
+                      </a>
+                      <span className="tag is-default">Desktop</span>
+                      <span className="tag is-default">?</span>
+                    </span>
+                  </p>
+                </header>
+                <div className="card-content">
+                  <figure className="image">
+                    <img
+                      src="../images/cards.png"
+                      alt="Cards template screenshot"
+                    />
+                  </figure>
+                </div>
+                <footer className="card-footer">
+                  <a href="templates/cards.html" className="card-footer-item">
+                    Preview
+                  </a>
+                  <a
+                    href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/cards.html"
+                    className="card-footer-item"
+                  >
+                    Source Code
+                  </a>
+                </footer>
+              </div>
+
+              <div className="card">
+                <header className="card-header">
+                  <p className="card-header-title">
+                    <span>Cards</span>
+                    <span className="is-pulled-right">
+                      <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
+                        <span className="tag is-default">v0.7.2</span>
+                      </a>
+                      <span className="tag is-default">Desktop</span>
+                      <span className="tag is-default">?</span>
+                    </span>
+                  </p>
+                </header>
+                <div className="card-content">
+                  <figure className="image">
+                    <img
+                      src="../images/cards.png"
+                      alt="Cards template screenshot"
+                    />
+                  </figure>
+                </div>
+                <footer className="card-footer">
+                  <a href="templates/cards.html" className="card-footer-item">
+                    Preview
+                  </a>
+                  <a
+                    href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/cards.html"
+                    className="card-footer-item"
+                  >
+                    Source Code
+                  </a>
+                </footer>
+              </div>
+
+              <div className="card">
+                <header className="card-header">
+                  <p className="card-header-title">
+                    <span>Cards</span>
+                    <span className="is-pulled-right">
+                      <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
+                        <span className="tag is-default">v0.7.2</span>
+                      </a>
+                      <span className="tag is-default">Desktop</span>
+                      <span className="tag is-default">?</span>
+                    </span>
+                  </p>
+                </header>
+                <div className="card-content">
+                  <figure className="image">
+                    <img
+                      src="../images/cards.png"
+                      alt="Cards template screenshot"
+                    />
+                  </figure>
+                </div>
+                <footer className="card-footer">
+                  <a href="templates/cards.html" className="card-footer-item">
+                    Preview
+                  </a>
+                  <a
+                    href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/cards.html"
                     className="card-footer-item"
                   >
                     Source Code

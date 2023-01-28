@@ -1,4 +1,5 @@
 import React from 'react';
+import Bulma from "bulma";
 
 const Header = () => {
 
