@@ -1,5 +1,5 @@
 import React from 'react';
-import Bulma from "bulma";
+
 
 const Header = () => {
 
@@ -8,9 +8,10 @@ const Header = () => {
 return (
   <nav className="navbar is-link is-fixed-top">
     <div className="navbar-brand">
+      {/* add button role, link */}
       <div
         className="navbar-burger burger"
-        data-target="navbarExampleTransparentExample"
+        data-target="navbarTime"
       >
         <span></span>
         <span></span>
@@ -18,7 +19,7 @@ return (
       </div>
     </div>
 
-    <div id="navbarExampleTransparentExample" className="navbar-menu">
+    <div id="navbarTime" className="navbar-menu">
       <div className="navbar-end">
         <a className="navbar-item" href="#about">
           <span className="icon">
