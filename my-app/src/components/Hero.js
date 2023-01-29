@@ -8,18 +8,19 @@ const Hero = () => {
     async function loadParticles(options) {
     await loadFull(tsParticles);
 
-    await tsParticles.load('.container', options);
+    await tsParticles.load('.tsparticles', options);
     }
 
     const configs = {
-      particles: {
-        number: {
-          value: 160,
-          density: {
-            enable: true,
-            value_area: 800,
-          },
-        },
+        // fullScreen: { enable: true},
+        particles: {
+            number: {
+                value: 160,
+                density: {
+                    enable: true,
+                    value_area: 800,
+                },
+            },
         color: {
           value: "#ffffff",
         },
@@ -118,9 +119,6 @@ const Hero = () => {
             particles_nb: 2,
           },
         },
-        fullScreen: {
-            enable: false,
-        },
       },
       retina_detect: true,
     };
@@ -129,8 +127,8 @@ const Hero = () => {
 
   return (
     <section className="hero is-link is-fullheight is-fullheight-with-navbar">
-      <div className="hero-body">
-        <div className="container has-text-centered">
+      <div className="hero-body container">
+        <div className="tsparticles has-text-centered">
           <img src={logo} />
         </div>
       </div>
