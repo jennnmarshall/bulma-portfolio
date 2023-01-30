@@ -2,17 +2,19 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
-import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import Contact from "./pages/Contact";
 import Main from "./pages/Main";
+import Portfolio from "./pages/Portfolio";
 
 function App() {
   return (
     <Router>
-      <Header />
+      <Navbar />
       <Routes>
         <Route exact path="/" element={<Main />} />
-        {/* <Route exact path="/saved" element={<LikedPost />} />
-        <Route exact path="/profile" element={<Profile />} /> */}
+        <Route exact path="/portfolio" element={<Portfolio />} />
+        <Route exact path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </Router>

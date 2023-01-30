@@ -2,9 +2,9 @@ import React from "react";
 import boozehound from "../images/boozehound.png";
 import frogr from "../images/frogr.png";
 import kermit from "../images/kermit8.png";
-import jate from "../images/jate.png";
-import notetaker from "../images/notetaker.png";
-import booksearch from "../images/booksearch.jpg";
+import jate from "../images/jateimg.png";
+import notetaker from "../images/notetakerimg.png";
+import booksearch from "../images/booksearchimg.jpg";
 
 
 const Cards = () => {

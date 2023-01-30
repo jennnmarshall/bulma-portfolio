@@ -7,11 +7,7 @@ const Main = () => {
 
   return (
     // hero section
-    <main>
       <Hero />
-
-      <Cards />
-    </main>
   );
 }
 
