@@ -24,7 +24,7 @@ const FORM_ENDPOINT = "https://public.herotofu.com/v1/945d7a00-a0cc-11ed-82c7-3d
 
 
   return (
-    <section className="section" id="contact section">
+    <section className="section" id="contact">
       <div className="container">
         <div className="columns is-justify-content-center">
           <div className="column is-6-tablet is-5-desktop is-4-widescreen is-3-fullh">

@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     // hero section
     <section>
-      <div className="p-6 my-6 has-text-centered is-fullheight">
+      <div className="p-6 my-6 has-text-centered">
         <h3 class="title is-2">Contact Me!</h3>
         <h4 class="subtitle is-5">How can I help you?</h4>
       </div>
