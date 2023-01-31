@@ -11,6 +11,7 @@ const Portfolio = () => {
     // hero section
     <section>
       <Cards />
+      <Footer />
     </section>
   );
 };

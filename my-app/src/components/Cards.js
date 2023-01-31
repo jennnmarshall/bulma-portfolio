@@ -1,24 +1,24 @@
 import React from "react";
 import boozehound from "../images/boozehound.png";
 import frogr from "../images/frogr.png";
-import kermit from "../images/kermit8.png";
+import kermit from "../images/hangmanimg.png";
 import jate from "../images/jateimg.png";
 import notetaker from "../images/notetakerimg.png";
-import booksearch from "../images/booksearchimg.jpg";
+import booksearch from "../images/booksearchimg.png";
 
 
 const Cards = () => {
   return (
     <section className="section" id="portfolio">
       <div className="container">
-        <div className="section-heading has-text-centered">
+        <div className="section-heading has-text-centered my-6">
           <h3 className="title is-2">Portfolio</h3>
           <h4 className="subtitle is-5">My latest projects</h4>
         </div>
         <br />
 
         <div className="container portfolio-container">
-          <div className="columns">
+          <div className="columns level">
             {/* first 2 */}
             <div className="column is-4">
               <div className="card">
@@ -44,12 +44,14 @@ const Cards = () => {
                   <a
                     href="https://frogr-app.herokuapp.com/"
                     className="card-footer-item"
+                    target="_blank"
                   >
                     Application
                   </a>
                   <a
                     href="https://github.com/cbaird21/frogr"
                     className="card-footer-item"
+                    target="_blank"
                   >
                     Source Code
                   </a>
@@ -64,7 +66,6 @@ const Cards = () => {
                       <span className="tag is-default">Desktop</span>
                       <span className="tag is-default">PWA</span>
                       <span className="tag is-default">IndexedDB</span>
-                      <span className="tag is-default">Webpack</span>
                     </span>
                   </p>
                 </header>
@@ -77,12 +78,14 @@ const Cards = () => {
                   <a
                     href="https://jmarsh-jate.herokuapp.com/"
                     className="card-footer-item"
+                    target="_blank"
                   >
                     Application
                   </a>
                   <a
                     href="https://github.com/jennnmarshall/just-another-text-editor"
                     className="card-footer-item"
+                    target="_blank"
                   >
                     Source Code
                   </a>
@@ -112,12 +115,14 @@ const Cards = () => {
                   <a
                     href="https://crimekermitterhangman.herokuapp.com/"
                     className="card-footer-item"
+                    target="_blank"
                   >
                     Application
                   </a>
                   <a
                     href="https://github.com/cbaird21/Hangman_app"
                     className="card-footer-item"
+                    target="_blank"
                   >
                     Source Code
                   </a>
@@ -141,12 +146,17 @@ const Cards = () => {
                   </figure>
                 </div>
                 <footer className="card-footer">
-                  <a href="templates/cards.html" className="card-footer-item">
+                  <a
+                    href="templates/cards.html"
+                    className="card-footer-item"
+                    target="_blank"
+                  >
                     Application
                   </a>
                   <a
                     href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/cards.html"
                     className="card-footer-item"
+                    target="_blank"
                   >
                     Source Code
                   </a>
@@ -175,12 +185,14 @@ const Cards = () => {
                   <a
                     href="https://mg1919.github.io/boozeHound/"
                     className="card-footer-item"
+                    target="_blank"
                   >
                     Application
                   </a>
                   <a
                     href="https://github.com/MG1919/boozeHound"
                     className="card-footer-item"
+                    target="_blank"
                   >
                     Source Code
                   </a>
@@ -206,12 +218,14 @@ const Cards = () => {
                   <a
                     href="https://safe-cove-82351.herokuapp.com/"
                     className="card-footer-item"
+                    target="_blank"
                   >
                     Application
                   </a>
                   <a
                     href="https://github.com/jennnmarshall/note-taker-app"
                     className="card-footer-item"
+                    target="_blank"
                   >
                     Source Code
                   </a>
