@@ -1,0 +1,24 @@
+{
+  "name": "bulma-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "^16.3.0",
+    "npm": "7.15.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennnmarshall/bulma-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jennnmarshall/bulma-portfolio/issues"
+  },
+  "homepage": "https://github.com/jennnmarshall/bulma-portfolio#readme"
+}
