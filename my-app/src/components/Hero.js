@@ -126,7 +126,7 @@ const Hero = () => {
     loadParticles(configs);
 
   return (
-    <section className="hero is-link is-fullheight is-fullheight-with-navbar">
+    <section className="hero gradient is-fullheight is-fullheight-with-navbar">
       <div className="hero-body container">
         <div className="tsparticles has-text-centered">
           <img src={logo} />

@@ -1,23 +1,32 @@
 import React from 'react';
-import logo from "../images/logojm.png"
+import logo from "../images/teallogo.png"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCodeFork, faCircleInfo, faFileLines, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 
 const Navbar = () => {
 
+  const burgerClick = () => {
+      var burger = document.querySelector(".burger");
+      var nav = document.querySelector("#navbarTime");
+      burger.classList.toggle("is-active");
+      nav.classList.toggle("is-active");
+  }
 
 
 return (
-  <nav className="navbar is-link is-fixed-top mb-6">
+  <nav className="navbar navcolor is-fixed-top mb-6">
     <div className="navbar-brand">
-      <a class="navbar-item" href="/">
-      <img src={logo} height="50"/>
-    </a>
+      <a className="navbar-item" href="/" role="button">
+        <img src={logo} height="50" />
+      </a>
       <a
         role="button"
-        className="navbar-burger burger"
+        className="navbar-burger burger tealtext"
         aria-label="menu"
         aria-expanded="false"
         data-target="navbarTime"
+        onClick={burgerClick}
       >
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -29,29 +38,29 @@ return (
       <div className="navbar-end">
         <a className="navbar-item" href="/portfolio">
           <span className="icon">
-            <i className="fas fa-th-list"></i>
+            <FontAwesomeIcon icon={faCodeFork} />
           </span>
           <span>Portfolio</span>
         </a>
         <a className="navbar-item" href="/about">
           <span className="icon">
-            <i className="fas fa-info"></i>
+            <FontAwesomeIcon icon={faCircleInfo} />
           </span>
           <span>About</span>
         </a>
         <a className="navbar-item" href="/about">
           <span className="icon">
-            <i className="fas fa-file-alt"></i>
+            <FontAwesomeIcon icon={faFileLines} />
           </span>
           <span>Resume</span>
         </a>
         <a className="navbar-item" href="/contact">
           <span className="icon">
-            <i className="fas fa-envelope"></i>
+            <FontAwesomeIcon icon={faEnvelope} />
           </span>
           <span>Contact</span>
-        </a>  
-      </div>  
+        </a>
+      </div>
     </div>
   </nav>
 );

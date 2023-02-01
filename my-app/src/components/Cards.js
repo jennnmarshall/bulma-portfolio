@@ -17,21 +17,20 @@ const Cards = () => {
         </div>
         <br />
 
-        <div className="container portfolio-container">
+        <div className="container portfolio-container my-2 mt-3">
           <div className="columns level">
             {/* first 2 */}
             <div className="column is-4">
               <div className="card">
-                <header className="card-header">
-                  <p className="card-header-title">
+                <header className="card-header teal">
+                  <p className="card-header-title white">
                     <span>
                       Frogr: <small>A social media app</small>
                     </span>
-                    <span className="is-pulled-right">
+                    <span className="is-pulled-right ml-1">
                       <span className="tag is-default">Desktop</span>
                       <span className="tag is-default">React</span>
                       <span className="tag is-default">GraphQL</span>
-                      <span className="tag is-danger">WIP</span>
                     </span>
                   </p>
                 </header>
@@ -57,12 +56,13 @@ const Cards = () => {
                   </a>
                 </footer>
               </div>
+              <br />
 
               <div className="card">
-                <header className="card-header">
-                  <p className="card-header-title">
+                <header className="card-header teal">
+                  <p className="card-header-title white">
                     <span>Just Another Text Editor</span>
-                    <span className="is-pulled-right">
+                    <span className="is-pulled-right ml-1">
                       <span className="tag is-default">Desktop</span>
                       <span className="tag is-default">PWA</span>
                       <span className="tag is-default">IndexedDB</span>
@@ -95,10 +95,10 @@ const Cards = () => {
             {/* next 2 */}
             <div className="column is-4">
               <div className="card">
-                <header className="card-header">
-                  <p className="card-header-title">
+                <header className="card-header teal">
+                  <p className="card-header-title white">
                     <span>Hangman App</span>
-                    <span className="is-pulled-right">
+                    <span className="is-pulled-right ml-1">
                       <span className="tag is-default">Desktop</span>
                       <span className="tag is-default">Handlebars</span>
                       <span className="tag is-default">MySQL</span>
@@ -128,12 +128,13 @@ const Cards = () => {
                   </a>
                 </footer>
               </div>
+              <br />
 
               <div className="card">
-                <header className="card-header">
-                  <p className="card-header-title">
+                <header className="card-header teal">
+                  <p className="card-header-title white">
                     <span>Book Search App</span>
-                    <span className="is-pulled-right">
+                    <span className="is-pulled-right ml-1">
                       <span className="tag is-default">Desktop</span>
                       <span className="tag is-default">React</span>
                       <span className="tag is-default">GraphQL</span>
@@ -166,10 +167,10 @@ const Cards = () => {
             {/* last 2 */}
             <div className="column is-4">
               <div className="card">
-                <header className="card-header">
-                  <p className="card-header-title">
+                <header className="card-header teal">
+                  <p className="card-header-title white">
                     <span>BoozeHound Cocktail Finder</span>
-                    <span className="is-pulled-right">
+                    <span className="is-pulled-right ml-1">
                       <span className="tag is-default">Desktop</span>
                       <span className="tag is-default">API</span>
                       <span className="tag is-default">jQuery</span>
@@ -198,12 +199,13 @@ const Cards = () => {
                   </a>
                 </footer>
               </div>
+              <br />
 
               <div className="card">
-                <header className="card-header">
-                  <p className="card-header-title">
+                <header className="card-header teal">
+                  <p className="card-header-title white">
                     <span>Note Taker App</span>
-                    <span className="is-pulled-right">
+                    <span className="is-pulled-right ml-1">
                       <span className="tag is-default">Desktop</span>
                       <span className="tag is-default">Express.js</span>
                     </span>

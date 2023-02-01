@@ -7881,9 +7881,48 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  position: relative; }
+  position: relative;
+  color: #121212;
+  background-color: #FBF8EF; }
 
 .footer {
   position: absolute;
   bottom: 0;
   width: 100vw; }
+
+.portrait {
+  border-radius: 75px; }
+
+.center {
+  justify-content: center; }
+
+.gradient {
+  background: #370059;
+  background: linear-gradient(180deg, #370059 20%, #7939c8 57%, #56b8b6 92%); }
+
+.navcolor {
+  background-color: #370059; }
+
+.navbar-item {
+  color: #56B8B6; }
+
+.white {
+  color: white; }
+
+.teal {
+  background-color: #56B8B6;
+  color: #FBF8EF; }
+
+.tealtext {
+  color: #56B8B6; }
+
+.dropdown {
+  color: #370059; }
+
+.purple {
+  background-color: #7843E6;
+  color: #FBF8EF; }
+
+.card-footer-item:hover {
+  background-color: #56B8B6;
+  color: white; }
