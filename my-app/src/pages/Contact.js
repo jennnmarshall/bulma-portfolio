@@ -20,12 +20,17 @@ const Contact = () => {
           <a
             href="https://github.com/jennnmarshall"
             className="button purple px-4 mx-3"
+            target="_blank"
           >
             GitHub
           </a>
-          <button type="submit" className="button purple px-4 mx-3">
+          <a
+            href="https://www.linkedin.com/in/jennnmarshall/"
+            className="button purple px-4 mx-3"
+            target="_blank"
+          >
             LinkedIn
-          </button>
+          </a>
         </div>
       </div>
       <Footer />

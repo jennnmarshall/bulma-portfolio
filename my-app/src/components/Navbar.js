@@ -48,12 +48,12 @@ return (
           </span>
           <span>About</span>
         </a>
-        <a className="navbar-item" href="/about">
+        {/* <a className="navbar-item" href="/about">
           <span className="icon">
             <FontAwesomeIcon icon={faFileLines} />
           </span>
           <span>Resume</span>
-        </a>
+        </a> */}
         <a className="navbar-item" href="/contact">
           <span className="icon">
             <FontAwesomeIcon icon={faEnvelope} />
