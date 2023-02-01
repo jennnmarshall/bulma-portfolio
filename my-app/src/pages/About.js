@@ -3,7 +3,7 @@ import React from "react";
 import face from "../images/jmarsh.png";
 import Footer from "../components/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faFilePdf} from "@fortawesome/free-solid-svg-icons";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
   // hero, project cards
@@ -14,21 +14,14 @@ const About = () => {
       <div className="section-heading has-text-centered">
         <h3 className="title is-2 pt-6 mt-6">About Me</h3>
         <h4 className="subtitle is-5">Creative tech savvy professional.</h4>
-        <div className="container mb-6">
+        <div className="container mb-6 px-6">
           <h5>
-            "At vero eos et accusamus et iusto odio dignissimos ducimus qui
-            blanditiis praesentium voluptatum deleniti atque corrupti quos
-            dolores et quas molestias excepturi sint occaecati cupiditate non
-            provident, similique sunt in culpa qui officia deserunt mollitia
-            animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis
-            est et expedita distinctio. Nam libero tempore, cum soluta nobis est
-            eligendi optio cumque nihil impedit quo minus id quod maxime placeat
-            facere possimus, omnis voluptas assumenda est, omnis dolor
-            repellendus. Temporibus autem quibusdam et aut officiis debitis aut
-            rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint
-            et molestiae non recusandae. Itaque earum rerum hic tenetur a
-            sapiente delectus, ut aut reiciendis voluptatibus maiores alias
-            consequatur aut perferendis doloribus asperiores repellat."
+            Hi! My name is Jenn and I am a full stack developer with a passion
+            for simple, user-friendly designs. I was recently certified from the
+            Coding Bootcamp at the University of Denver, where I added several
+            languages to my tech stack, such as JavaScript, React, and of course
+            HTML and CSS. I am a perpetual student (currently taking a course on
+            building with TypeScript) and I love reading, graphic design and illustration, video games, and searching for the best steamed bao bun.
           </h5>
         </div>
       </div>
@@ -50,11 +43,27 @@ const About = () => {
                   <div className="media-content">
                     <div className="content">
                       <p>
+                        <strong>HTML5/CSS3</strong>
+                        <br />
+                        <progress
+                          className="progress is-primary"
+                          value="95"
+                          max="100"
+                        ></progress>
+                      </p>
+                    </div>
+                  </div>
+                </article>
+
+                <article className="media">
+                  <div className="media-content">
+                    <div className="content">
+                      <p>
                         <strong>JavaScript:</strong>
                         <br />
                         <progress
                           className="progress is-primary"
-                          value="90"
+                          value="80"
                           max="100"
                         ></progress>
                       </p>
@@ -94,21 +103,6 @@ const About = () => {
                   </div>
                 </article>
 
-                <article className="media">
-                  <div className="media-content">
-                    <div className="content">
-                      <p>
-                        <strong>HTML5/CSS3</strong>
-                        <br />
-                        <progress
-                          className="progress is-primary"
-                          value="95"
-                          max="100"
-                        ></progress>
-                      </p>
-                    </div>
-                  </div>
-                </article>
 
                 <article className="media">
                   <div className="media-content">
