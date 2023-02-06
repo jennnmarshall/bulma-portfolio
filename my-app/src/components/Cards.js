@@ -148,14 +148,14 @@ const Cards = () => {
                 </div>
                 <footer className="card-footer">
                   <a
-                    href="templates/cards.html"
+                    href="https://mysterious-cove-33016.herokuapp.com/"
                     className="card-footer-item"
                     target="_blank"
                   >
                     Application
                   </a>
                   <a
-                    href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/cards.html"
+                    href="https://github.com/jennnmarshall/book-search-eng"
                     className="card-footer-item"
                     target="_blank"
                   >
