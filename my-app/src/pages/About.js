@@ -21,7 +21,9 @@ const About = () => {
             Coding Bootcamp at the University of Denver, where I added several
             languages to my tech stack, such as JavaScript, React, and of course
             HTML and CSS. I am a perpetual student (currently taking a course on
-            building with TypeScript) and I love reading, graphic design and illustration, video games, and searching for the best steamed bao bun.
+            building with TypeScript) and I love reading, graphic design and
+            illustration, video games, and searching for the best steamed bao
+            bun.
           </h5>
         </div>
       </div>
@@ -103,7 +105,6 @@ const About = () => {
                   </div>
                 </article>
 
-
                 <article className="media">
                   <div className="media-content">
                     <div className="content">
@@ -125,19 +126,22 @@ const About = () => {
         </div>
       </div>
 
-      {/* <div className="section-heading has-text-centered mb-6 pb-6 fill">
+      <div className="section-heading has-text-centered mb-6 pb-6 fill">
         <h3 className="title is-2">Resume</h3>
         <h4 className="subtitle is-5">More about my past</h4>
-        <form method="get" action="JennMarshallResume.pdf">
+        <a
+          href="https://drive.google.com/file/d/1uVVovcb7RyNSnj5mrgRwKkKudp6oJXe1/view?usp=sharing"
+          target="_blank"
+        >
           <button type="submit" className="button purple is-medium">
             <span className="icon">
               <FontAwesomeIcon icon={faFilePdf} />
             </span>
             <span>Download My Resume</span>
           </button>
-        </form>
+        </a>
       </div>
-      <div className="fill"></div> */}
+      <div className="fill"></div>
       <Footer />
     </section>
   );
