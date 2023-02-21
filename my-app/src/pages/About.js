@@ -130,7 +130,7 @@ const About = () => {
         <h3 className="title is-2">Resume</h3>
         <h4 className="subtitle is-5">More about my past</h4>
         <a
-          href="https://drive.google.com/file/d/1uVVovcb7RyNSnj5mrgRwKkKudp6oJXe1/view?usp=sharing"
+          href="https://docs.google.com/document/d/1EPGEScE6Dxb9upQy-sSyL5ed6nXdEMH8Pw_ek7G-7lE/edit?usp=sharing"
           target="_blank"
         >
           <button type="submit" className="button purple is-medium">
